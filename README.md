@@ -1,10 +1,11 @@
 ### Use PyTorch to build the following model
 - Deep NN:
+```
       conv - relu - conv- relu - pool -
       conv - relu - conv- relu - pool -
       conv - relu - conv- relu - pool -
       affine - relu - dropout - affine - dropout - softmax
-
+```
 - Initialize parameters by kaiming_normal 
 - Use dropout after fully-connected layers
 
